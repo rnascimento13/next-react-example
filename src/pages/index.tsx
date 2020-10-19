@@ -3,9 +3,11 @@ import Head from 'next/head'
 
 import Logo from '../assets/logo.svg'
 
+import { Container } from '../styles/pages/Home'
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
         <title>Homepage</title>
       </Head>
@@ -14,7 +16,7 @@ const Home: React.FC = () => {
         <Logo />
         <h1>Hello World</h1>
       </main>
-    </div>
+    </Container>
   )
 }
 
