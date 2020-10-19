@@ -14,7 +14,11 @@ const Home: React.FC = () => {
 
       <main>
         <Logo />
-        <h1>Hello World</h1>
+        <h1>Next.JS + React.Js</h1>
+        <p>
+          with typescript, eslint, prettier, editorconfig, babel,
+          styled-components, next-images and inline-react-svg
+        </p>
       </main>
     </Container>
   )
