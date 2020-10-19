@@ -12,14 +12,12 @@ const Home: React.FC = () => {
         <title>Homepage</title>
       </Head>
 
-      <main>
-        <Logo />
-        <h1>Next.JS + React.Js</h1>
-        <p>
-          with typescript, eslint, prettier, editorconfig, babel,
-          styled-components, next-images and inline-react-svg
-        </p>
-      </main>
+      <Logo />
+      <h1>Next.JS + React.Js</h1>
+      <p>
+        with typescript, eslint, prettier, editorconfig, babel,
+        styled-components, next-images and inline-react-svg
+      </p>
     </Container>
   )
 }

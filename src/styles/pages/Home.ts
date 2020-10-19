@@ -20,4 +20,9 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+
+  svg {
+    width: 200px;
+    height: 200px;
+  }
 `
