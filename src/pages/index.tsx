@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-
-import Logo from '../assets/logo.svg'
+import Image from 'next/image'
 
 import { Container } from '../styles/pages/Home'
 
@@ -12,7 +11,7 @@ const Home: React.FC = () => {
         <title>Homepage</title>
       </Head>
 
-      <Logo />
+      <Image src="/logo.svg" alt="imagem" width={600} height={400} />
       <h1>Next.JS + React.Js</h1>
       <p>
         with typescript, eslint, prettier, editorconfig, babel,
