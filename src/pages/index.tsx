@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <h1>Next.JS + React.Js</h1>
       <p>
         with typescript, eslint, prettier, editorconfig, babel,
-        styled-components, next-images and inline-react-svg
+        styled-components
       </p>
     </Container>
   )
